@@ -5,6 +5,12 @@ var c = "Hello, world!";
 function areStringsEqual(str1, str2) {
     return str1 === str2;
 }
+// ts object with interface
+var employee = {
+    name: "John",
+    // age: 30,
+    employeeId: 12345
+};
 // ts object
 var person = {
     name: "John",

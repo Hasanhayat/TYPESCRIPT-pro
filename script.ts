@@ -11,8 +11,19 @@ function areStringsEqual(str1: string, str2: string): boolean {
 // ts interface
 interface Person {
     name: string;
-    age: number;
+    age?: number;
 }       
+
+//extending the interface
+interface Employee extends Person {
+    employeeId: number;
+}
+// ts object with interface
+let employee: Employee = {
+    name: "John",
+    // age: 30,
+    employeeId: 12345
+}
 
 
 
